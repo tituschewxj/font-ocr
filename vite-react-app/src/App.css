@@ -1,0 +1,90 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  background: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  color: #3e4e5e;
+  margin-bottom: 10px;
+}
+
+.app-description {
+  font-size: 1.1rem;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.file-input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 1rem;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #3e4e5e;
+}
+
+.image-preview-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.image-preview {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

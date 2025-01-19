@@ -1,0 +1,4 @@
+__pycache__
+/lib/*.11
+/bin
+/backend/path_to_model.h5
